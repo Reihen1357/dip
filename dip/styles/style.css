@@ -61,5 +61,23 @@
     width: 940px;
     margin: 0 auto;
     justify-content: space-between;
+    background-color:rgb(192, 253, 253);
 }
 
+.main {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    background-color:rgb(210, 252, 252);
+}
+
+.main__recipes {
+    list-style-type: none;
+}
+
+.recipes-form {
+    display: flex;
+    margin: 0 auto;
+    width: 940px;
+    flex-direction: column;
+}
