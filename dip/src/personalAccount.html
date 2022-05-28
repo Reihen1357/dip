@@ -5,16 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../src/app.js">
     <title>Personal account</title>
 </head>
 <body>
     <section class="header">
-        <h1 class="pers__acc-header">Добро пожаловать в личный кабинет <div id="userName"></div></h1>
+        <h1 class="pers__acc-header">Личный кабинет <div id="userName"></div></h1>
         <div class="pers__acc-profile">
-            <div class="pers__acc-profile-fio" id="userFio"></div>
+            <div class="pers__acc-profile-fio" id="userFio">ФИО</div>
+            <div class="pers__acc-profile-myprof">Профиль</div>
+            <div class="pers__acc-profole-exit">Выход</div>
         </div>
     </section>
-    <section class="main"></section>
+    <section class="main">
+        <ul class="main__recipes">
+            <li>
+                <h2 class="main__header">Список рецептов</h2>
+            </li>
+            <li>
+                <div class="ready-recipes">Заполненные рецепты</div>
+            </li>
+            <li>
+                <div class="non-ready-recipes">Незаполненные рецепты</div>
+            </li>
+            <li>
+                <button class="create-recipes-btn" id="create-recipes">Новый рецепт</button>
+            </li>
+        </ul>
+        <!-- <div class="popup">
+            <div class="popup__container">
+                <div class="popup__wrapper">
+                    <form class="recipes-form" role="form" autocomplete="off" action="" method="post">
+                        <label >Дата выписки рецепта</label>
+                        <input type="text" name="" id="">
+                        <label >Пациент</label>
+                        <input type="text" name="" id="">
+                        <label >Врач</label>
+                        <input type="text" name="" id="">
+                        <label >Название медицинской организации</label>
+                        <input type="text" name="" id="">
+                        <label >Диагноз</label>
+                        <input type="text" name="" id="">
+                        <label >Случай обращения</label>
+                        <input type="text" name="" id="">
+                        <label >Действующее вещество</label>
+                        <input type="text" name="" id="">
+                        <label >Лекарственная форма</label>
+                        <input type="text" name="" id="">
+                        <label >Путь введения</label>
+                        <input type="text" name="" id="">
+                        <label >Единицы измерения дозы</label>
+                        <input type="text" name="" id="">
+                        <label >Доза</label>
+                        <input type="text" name="" id="">
+                        <label >Количество доз на прием</label>
+                        <input type="text" name="" id="">
+                        <label >Частота приемов дозы</label>
+                        <input type="text" name="" id="">
+                        <label >Условия приема</label>
+                        <input type="text" name="" id="">
+                        <label >Дата начала лечения</label>
+                        <input type="text" name="" id="">
+                        <label >Продолжительность лечения</label>
+                        <input type="text" name="" id="">
+                        <label >Инструкция пациенту</label>
+                        <input type="text" name="" id="">
+                        <label >Инструкция формацевту</label>
+                        <input type="text" name="" id="">
+                        <button type="submit" >Создать</button>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+        
+    </section>
     <section class="footer"></section>
 </body>
 </html>
