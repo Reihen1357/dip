@@ -1,10 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const button = document.querySelector('#create-recipes')
-    const form = document.querySelector('#id-form')
-    const popup = document.querySelector('.popup')
-    
-    button = addEventListener('click', () => {
-        form.classList.add('open')
-        popup.classList.add('popup_open')
-    })
-})
+import firebase from 'firebase/compat/app';
+
+
+// const button = document.getElementById('create-recipes')
+// const form = document.getElementById('hide-form')
+// button.addEventListener('click', () => {
+//     form.classList.toggle('hidden')
+// })
+
