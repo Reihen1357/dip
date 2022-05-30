@@ -61,5 +61,38 @@
     width: 940px;
     margin: 0 auto;
     justify-content: space-between;
+    background-color:rgb(192, 253, 253);
 }
 
+.main {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    background-color:rgb(210, 252, 252);
+    flex-direction: column;
+}
+
+.main__header {
+    align-items: center;
+}
+
+.ready-recipes {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ready-recipes-form {
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+    flex-direction: column;
+}
+
+.main__header, .ready-recipes, .ready-recipes-form, .create-recipes-btn {
+    margin-top: 25px;
+}
+
+.ready-recipes-input {
+    height: 50px;
+}

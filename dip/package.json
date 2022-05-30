@@ -1,0 +1,42 @@
+{
+  "name": "diplom",
+  "version": "1.0.0",
+  "description": "diplom",
+  "main": "app.js",
+  "dependencies": {
+    "firebase": "^9.8.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-loader": "^0.0.5",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reihen1357/dip.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "firebase"
+  ],
+  "author": "Andrey Kononov <reihen1357@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reihen1357/dip/issues"
+  },
+  "homepage": "https://github.com/Reihen1357/dip#readme"
+}
