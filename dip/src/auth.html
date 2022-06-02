@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
     <title>Auth</title>
 </head>
 <body>
     <div class="container">
         <form class="auth__form" action="">
             <h1 class="auth__form-header">Вход</h1>
-            <input class="auth__form-input" name="email" type="email" placeholder="Введите почту">
-            <input class="auth__form-input" name="password" type="password" placeholder="Введите пароль">
-            <button class="auth__form-btn" type="submit" id="auth__form-btn-signIn">Войти</button>
-            <button class="auth__form-btn-redirect">Нет аккаунта? Зарегистрироваться</button>
+            <input class="auth__form-input" id="loginEmail" name="email" type="email" placeholder="Введите почту">
+            <input class="auth__form-input" id="loginPassword" name="password" type="password" placeholder="Введите пароль">
+            <button class="auth__form-btn" type="submit" id="btnLogin" >Войти</button>
+            <button class="auth__form-btn-redirect"><a href="reg.html">Нет аккаунта? Зарегистрироваться</a></button>
         </form>
     </div>
 </body>

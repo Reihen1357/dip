@@ -1,9 +1,10 @@
-import firebase from 'firebase/compat/app';
+signOut(auth).then(() => {
+  
+}).catch((error) => {
 
+});
 
-// const button = document.getElementById('create-recipes')
-// const form = document.getElementById('hide-form')
-// button.addEventListener('click', () => {
-//     form.classList.toggle('hidden')
-// })
-
+// const btnLogin = document.querySelector('#btnLogin')
+// const btnLogout = document.querySelector('#btnLogout')
+// const loginEmail = document.querySelector('#loginEmail')
+// const loginPassword = document.querySelector('#loginPassword')
